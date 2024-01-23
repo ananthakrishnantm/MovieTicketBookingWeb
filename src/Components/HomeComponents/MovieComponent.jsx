@@ -9,8 +9,7 @@ const MovieComponent = () => {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        const apiKey = "9fb68997";
-        const apiUrl = `http://www.omdbapi.com/?s=movie&apikey=${apiKey}`;
+        const apiUrl = `https://www.omdbapi.com/?s=movie&apikey=9fb68997`;
         const response = await fetch(apiUrl);
         const data = await response.json();
 
