@@ -1,9 +1,9 @@
 {
+  "homepage": "https://ananthakrishnantm.github.io/MovieTicketBookingWeb",
   "name": "movie-ticket-booking",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "git@github.com:ananthakrishnantm/MovieTicketBookingWeb.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
