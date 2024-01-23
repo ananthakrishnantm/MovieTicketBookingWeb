@@ -1,0 +1,31 @@
+/* searchResults.css */
+.search-results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+}
+h2 {
+  color: white;
+  margin-left: 20px;
+}
+
+.search-card {
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgb(61, 66, 66);
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.search-card img {
+  max-width: 100%;
+
+  margin-bottom: 10px;
+}
+
+/* Add additional styles as needed */

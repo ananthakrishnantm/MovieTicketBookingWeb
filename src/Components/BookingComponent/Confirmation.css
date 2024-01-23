@@ -1,0 +1,51 @@
+.confirmation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-confirmation {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+.heading-confirm-movie {
+  color: #333;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.heading-confirm {
+  text-align: center;
+  color: #333;
+}
+
+.confirm-para-container {
+  margin: 0;
+  padding: 0;
+}
+
+.heading-confirm-movie-image {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  height: auto; /* Set a fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 0;
+}
+.image-para-container {
+  align-content: flex-end;
+  display: flex;
+  flex-direction: 1;
+  justify-content: center;
+  align-items: center;
+}
