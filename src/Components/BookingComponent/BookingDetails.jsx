@@ -17,7 +17,7 @@ const BookingDetails = () => {
   useEffect(() => {
     // Fetch the movie title when the component mounts
     axios
-      .get(`http://www.omdbapi.com/?i=${id}&apikey=9fb68997`)
+      .get(`https://www.omdbapi.com/?i=${id}&apikey=9fb68997`)
       .then((response) => {
         setMovieTitle(response.data || "Unknown Movie");
       })

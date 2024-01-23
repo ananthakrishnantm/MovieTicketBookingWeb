@@ -14,7 +14,7 @@ const SearchResults = () => {
   useEffect(() => {
     const fetchSearchResults = () => {
       const apiKey = "9fb68997";
-      const apiUrl = `http://www.omdbapi.com/?s=${searchTerm}&apikey=${apiKey}`;
+      const apiUrl = `https://www.omdbapi.com/?s=${searchTerm}&apikey=${apiKey}`;
 
       axios
         .get(apiUrl)
