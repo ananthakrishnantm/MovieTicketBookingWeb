@@ -12,7 +12,7 @@ const Navigation = () => {
     navigate(`/search-results?query=${searchTerm}`);
   };
   const backhome = () => {
-    navigate(`/`);
+    navigate(`/MovieTicketBookingWeb`);
   };
   return (
     <div className="navigation-container">

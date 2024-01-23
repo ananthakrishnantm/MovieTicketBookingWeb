@@ -9,7 +9,7 @@ import Confirmation from "./Components/BookingComponent/Confirmation";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/MovieTicketBookingWeb" element={<Home />} />
       <Route path="/search-results" element={<SearchResults />} />
       <Route path="/booking/:id" element={<Booking />} />
       <Route path="/booking-details/:id" element={<BookingDetails />} />
