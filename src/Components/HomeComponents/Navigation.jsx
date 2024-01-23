@@ -12,7 +12,7 @@ const Navigation = () => {
     navigate(`/search-results?query=${searchTerm}`);
   };
   const backhome = () => {
-    navigate(`/Home`);
+    navigate(`/`);
   };
   return (
     <div className="navigation-container">
